@@ -13,6 +13,16 @@
 		8C5A89F81FED433E0027A91C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5A89F71FED433E0027A91C /* Assets.xcassets */; };
 		8C5A89FB1FED433E0027A91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5A89F91FED433E0027A91C /* LaunchScreen.storyboard */; };
 		8C5A89FE1FED433E0027A91C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A89FD1FED433E0027A91C /* main.m */; };
+		8C5A8A061FED43A80027A91C /* TableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A8A051FED43A80027A91C /* TableSection.m */; };
+		8C5A8A091FED44050027A91C /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A8A081FED44050027A91C /* TableCell.m */; };
+		8C5A8A0C1FED56EA0027A91C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A8A0B1FED56EA0027A91C /* FirstViewController.m */; };
+		8C5A8A0F1FED56F70027A91C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A8A0E1FED56F70027A91C /* SecondViewController.m */; };
+		8C5A8A121FED68FC0027A91C /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A8A111FED68FC0027A91C /* ParentViewController.m */; };
+		8C5A8A1D1FED8A310027A91C /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C5A8A1C1FED8A310027A91C /* TableCell.xib */; };
+		8C5A8A1F1FED8BE10027A91C /* HapticGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5A8A1E1FED8BE00027A91C /* HapticGenerator.m */; };
+		8C87D01A1FEE695B00D44F53 /* UIGestureRecognizer+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87D0191FEE695B00D44F53 /* UIGestureRecognizer+Utils.m */; };
+		8CD1F5711FED988C002635AF /* TableCellsDraggingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1F5701FED988C002635AF /* TableCellsDraggingHandler.m */; };
+		8CD1F5741FED9F1A002635AF /* UIView+Additionals.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1F5731FED9F1A002635AF /* UIView+Additionals.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		8C5A89FA1FED433E0027A91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C5A89FC1FED433E0027A91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C5A89FD1FED433E0027A91C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C5A8A041FED43A80027A91C /* TableSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableSection.h; sourceTree = "<group>"; };
+		8C5A8A051FED43A80027A91C /* TableSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableSection.m; sourceTree = "<group>"; };
+		8C5A8A071FED44050027A91C /* TableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		8C5A8A081FED44050027A91C /* TableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		8C5A8A0A1FED56EA0027A91C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8C5A8A0B1FED56EA0027A91C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8C5A8A0D1FED56F70027A91C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8C5A8A0E1FED56F70027A91C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8C5A8A101FED68FC0027A91C /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		8C5A8A111FED68FC0027A91C /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		8C5A8A1A1FED889F0027A91C /* HapticGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HapticGenerator.h; sourceTree = "<group>"; };
+		8C5A8A1C1FED8A310027A91C /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		8C5A8A1E1FED8BE00027A91C /* HapticGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HapticGenerator.m; sourceTree = "<group>"; };
+		8C87D0181FEE695B00D44F53 /* UIGestureRecognizer+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Utils.h"; sourceTree = "<group>"; };
+		8C87D0191FEE695B00D44F53 /* UIGestureRecognizer+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Utils.m"; sourceTree = "<group>"; };
+		8CD1F56F1FED988C002635AF /* TableCellsDraggingHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCellsDraggingHandler.h; sourceTree = "<group>"; };
+		8CD1F5701FED988C002635AF /* TableCellsDraggingHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCellsDraggingHandler.m; sourceTree = "<group>"; };
+		8CD1F5721FED9F1A002635AF /* UIView+Additionals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additionals.h"; sourceTree = "<group>"; };
+		8CD1F5731FED9F1A002635AF /* UIView+Additionals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additionals.m"; sourceTree = "<group>"; };
+		8CD1F5791FEDA4A1002635AF /* DraggableSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraggableSection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +90,10 @@
 			children = (
 				8C5A89EE1FED433E0027A91C /* AppDelegate.h */,
 				8C5A89EF1FED433E0027A91C /* AppDelegate.m */,
-				8C5A89F11FED433E0027A91C /* ViewController.h */,
-				8C5A89F21FED433E0027A91C /* ViewController.m */,
+				8CD1F5761FEDA178002635AF /* ViewControllers */,
+				8CD1F5751FEDA166002635AF /* TableComponents */,
+				8CD1F5771FEDA183002635AF /* Helpers */,
+				8CD1F5781FEDA188002635AF /* Categories */,
 				8C5A89F41FED433E0027A91C /* Main.storyboard */,
 				8C5A89F71FED433E0027A91C /* Assets.xcassets */,
 				8C5A89F91FED433E0027A91C /* LaunchScreen.storyboard */,
@@ -69,6 +101,56 @@
 				8C5A89FD1FED433E0027A91C /* main.m */,
 			);
 			path = DragAndDropTable;
+			sourceTree = "<group>";
+		};
+		8CD1F5751FEDA166002635AF /* TableComponents */ = {
+			isa = PBXGroup;
+			children = (
+				8C5A8A041FED43A80027A91C /* TableSection.h */,
+				8C5A8A051FED43A80027A91C /* TableSection.m */,
+				8C5A8A071FED44050027A91C /* TableCell.h */,
+				8C5A8A081FED44050027A91C /* TableCell.m */,
+				8C5A8A1C1FED8A310027A91C /* TableCell.xib */,
+			);
+			path = TableComponents;
+			sourceTree = "<group>";
+		};
+		8CD1F5761FEDA178002635AF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C5A89F11FED433E0027A91C /* ViewController.h */,
+				8C5A89F21FED433E0027A91C /* ViewController.m */,
+				8C5A8A0A1FED56EA0027A91C /* FirstViewController.h */,
+				8C5A8A0B1FED56EA0027A91C /* FirstViewController.m */,
+				8C5A8A0D1FED56F70027A91C /* SecondViewController.h */,
+				8C5A8A0E1FED56F70027A91C /* SecondViewController.m */,
+				8C5A8A101FED68FC0027A91C /* ParentViewController.h */,
+				8C5A8A111FED68FC0027A91C /* ParentViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8CD1F5771FEDA183002635AF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8C5A8A1A1FED889F0027A91C /* HapticGenerator.h */,
+				8C5A8A1E1FED8BE00027A91C /* HapticGenerator.m */,
+				8CD1F5791FEDA4A1002635AF /* DraggableSection.h */,
+				8CD1F56F1FED988C002635AF /* TableCellsDraggingHandler.h */,
+				8CD1F5701FED988C002635AF /* TableCellsDraggingHandler.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8CD1F5781FEDA188002635AF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8CD1F5721FED9F1A002635AF /* UIView+Additionals.h */,
+				8CD1F5731FED9F1A002635AF /* UIView+Additionals.m */,
+				8C87D0181FEE695B00D44F53 /* UIGestureRecognizer+Utils.h */,
+				8C87D0191FEE695B00D44F53 /* UIGestureRecognizer+Utils.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +213,7 @@
 			files = (
 				8C5A89FB1FED433E0027A91C /* LaunchScreen.storyboard in Resources */,
 				8C5A89F81FED433E0027A91C /* Assets.xcassets in Resources */,
+				8C5A8A1D1FED8A310027A91C /* TableCell.xib in Resources */,
 				8C5A89F61FED433E0027A91C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,7 +226,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5A89F31FED433E0027A91C /* ViewController.m in Sources */,
+				8C5A8A0C1FED56EA0027A91C /* FirstViewController.m in Sources */,
+				8C5A8A121FED68FC0027A91C /* ParentViewController.m in Sources */,
 				8C5A89FE1FED433E0027A91C /* main.m in Sources */,
+				8C5A8A1F1FED8BE10027A91C /* HapticGenerator.m in Sources */,
+				8C5A8A0F1FED56F70027A91C /* SecondViewController.m in Sources */,
+				8CD1F5741FED9F1A002635AF /* UIView+Additionals.m in Sources */,
+				8C87D01A1FEE695B00D44F53 /* UIGestureRecognizer+Utils.m in Sources */,
+				8C5A8A061FED43A80027A91C /* TableSection.m in Sources */,
+				8C5A8A091FED44050027A91C /* TableCell.m in Sources */,
+				8CD1F5711FED988C002635AF /* TableCellsDraggingHandler.m in Sources */,
 				8C5A89F01FED433E0027A91C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

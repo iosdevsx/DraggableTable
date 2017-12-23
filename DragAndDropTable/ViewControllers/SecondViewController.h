@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  DragAndDropTable
 //
 //  Created by Юрий Логинов on 22.12.17.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ParentViewController.h"
 
-@interface ViewController : UIViewController
+@interface SecondViewController : ParentViewController
 
 
 @end
-
